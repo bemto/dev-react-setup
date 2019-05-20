@@ -1,0 +1,38 @@
+{
+  "name": "@bemto/dev-core-setup",
+  "version": "0.1.0",
+  "description": "A common deps list for dev deps of core bemto projects",
+  "author": "Roman Komarov <kizu@kizu.ru>",
+  "license": "MIT",
+  "files": [
+    "Readme.md",
+    "LICENSE"
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemto/dev-core-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bemto/dev-core-setup/issues"
+  },
+  "homepage": "https://github.com/bemto/dev-core-setup#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1",
+    "rollup": "^1.12.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-size-snapshot": "^0.8.0",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
